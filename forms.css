@@ -1,0 +1,38 @@
+body {
+    background-color: chartreuse;
+
+}
+
+div {
+    color: green;
+
+}
+
+div.parent {
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    margin: 20px;
+    border: black solid 2px;
+    width: 250px;
+    height: 200px;
+    z-index: 20000;
+}
+
+div.form1 {
+    margin: 15px;
+    padding: 10px;
+}
+
+div.form2 {
+    margin: 15px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+div.heading {
+    background-color: chartreuse;
+    position: fixed;
+    left: 65px;
+    top: 21px;
+}

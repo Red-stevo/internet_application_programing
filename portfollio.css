@@ -1,0 +1,140 @@
+img.about,
+.skills,
+.portfollio,
+.home,
+.contact,
+.github {
+    top: 2px;
+}
+
+img.about {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    right: 280px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+img.skills {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    right: 190px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+img.portfollio {
+    height: 80px;
+    width: 200px;
+    position: fixed;
+    left: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+img.home {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    right: 370px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+img.contact {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    right: 100px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+img.github {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    right: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+div.menu {
+    position: fixed;
+    top: 0px;
+    background-color: #1c99fe;
+    border: solid #1c99fe;
+    z-index: 40;
+    width: 1800px;
+    height: 100px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+
+
+
+
+
+/*page one styles*/
+div.home-page {
+    border: solid black;
+    position: relative;
+    top: 105px;
+    border: solid #1c99fe;
+    width: 1300px;
+    height: 400px;
+    margin: 5px;
+    background-image: url(../pics/portfolio3.jpg);
+    background-position: center;
+}
+
+span.welcome,
+.note {
+    color: #1f1f1f25;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*display: inline-block;*/
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+span.welcome {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+span.note {
+    position: relative;
+    left: 200px;
+    top: 110px;
+}
+
+/* end of home page*/
+
+/*Start of about page.*/
+
+#about {
+    position: relative;
+    border: solid black;
+    /*height: 600px;*/
+    width: 1300px;
+    top: 120px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+div.about-me {
+    position: relative;
+    left: 50px;
+}

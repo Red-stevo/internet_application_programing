@@ -1,3 +1,9 @@
+body {
+    background-image: url(../pics/portfollio1.jpg);
+    z-index: -200;
+}
+
+
 img.about,
 .skills,
 .portfollio,
@@ -80,14 +86,15 @@ div.menu {
 
 
 /*page one styles*/
-div.home-page {
+#home-page {
     border: solid black;
     position: relative;
-    top: 105px;
+    top: 90px;
     border: solid #1c99fe;
     width: 1300px;
-    height: 400px;
-    margin: 5px;
+    height: 600px;
+    margin: 0px;
+    margin-bottom: -30px;
     background-image: url(../pics/portfolio3.jpg);
     background-position: center;
 }
@@ -122,19 +129,79 @@ span.note {
 /* end of home page*/
 
 /*Start of about page.*/
-
 #about {
+    top: 120px;
+}
+
+
+#about,
+#skills,
+#contact-me {
     position: relative;
     border: solid black;
     /*height: 600px;*/
     width: 1300px;
-    top: 120px;
     text-align: left;
     background-color: black;
     color: white;
 }
 
-div.about-me {
+div.about-me,
+.my-skills,
+.contact-me {
     position: relative;
     left: 50px;
+}
+
+.about-space,
+.skills-space,
+.contact-space,
+.home-space {
+    color: black;
+    border: solid black;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 1200px;
+    height: 100px;
+}
+
+div.about-header,
+.skills-header,
+.contact-header {
+    color: #1f1f1f25;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    border: solid black;
+    width: 1000px;
+    height: 100px;
+}
+
+/*The skills page styles*/
+
+#skills {
+    top: 120px;
+}
+
+
+
+
+/*Working on the headings */
+h2,
+h3 {
+    color: #1f1f1f25;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(180deg, #fb4777 5.69%, #90901f 30.69%, #7644ff 70.19%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    border: solid black;
+    width: 1200px;
 }
